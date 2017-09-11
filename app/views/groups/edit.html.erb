@@ -4,15 +4,15 @@
   <hr>
   <%= form_for @group do |f| %>
 
-  标题
-  <%= f.text_field :title %>
-  <br>
-  叙述
-  <br>
-  <%= f.text_area :description %>
-  <br>
+   标题
+   <%= f.text_field :title %>
+   <br>
+   叙述
+   <br>
+   <%= f.text_area :description %>
+   <br>
+   <%= f.submit "Submit", :disable_with => 'Submiting...' %>
+   <% end %>
 
-  <%= f.submit "Submit", :disable_with => 'Submiting...' %>
-  <% end %>
-
-</div>
+ </div>
+ 
